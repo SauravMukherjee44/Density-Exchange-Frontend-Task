@@ -1,0 +1,35 @@
+.timeliner {
+  display: flex;
+  padding: 20px;
+  background-color: #edf8fe;
+  border-radius: 10px;
+  border: 1px solid #edf8fe;
+  margin-left: 50px;
+  z-index: 999;
+}
+
+.timeliner-item {
+  width: 300px;
+  flex-shrink: 0;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.timeliner-content {
+  text-align: center;
+}
+
+.timeliner img {
+  width: 15%;
+}
+
+.timeliner p {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.big_img {
+  position: relative;
+  bottom: 70px;
+}
